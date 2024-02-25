@@ -1,0 +1,35 @@
+body {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.okraj{
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+  
+  li {
+    float: left;
+    background-color: #333;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #008d17;
+  }
+  
+
+.canvasedit{
+  border: 10px solid #04AA6D;
+  margin-top: -6px;
+}
+

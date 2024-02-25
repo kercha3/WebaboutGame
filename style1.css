@@ -1,0 +1,87 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.hlavnynatpis{
+    font-size: 100px;
+    text-align: center;
+    border-radius: 50px;
+    border-bottom: 2px solid red;
+    border-left:2px solid green;
+    border-right:2px solid yellow;
+    border-top:2px solid blue;
+    /* background-image: linear-gradient(to bottom right, #da5f5f 0%, #71b7d8 100%); */
+}
+
+/* bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+  /* table */
+
+  .table {
+     width: 80%;
+     margin: 0 auto;
+  }
+
+
+ table, th, td {
+  border: 10px outset rgb(48, 48, 48);
+  font-size: 20px;
+  padding: 5px;
+}
+
+.tr{
+  background-color: rgb(71, 71, 71);
+  font-size: 30px;
+}
+
+.nadpistabulky {
+  color: rgb(103, 255, 98);
+}
+
+.end{
+  background-color: rgb(100, 100, 100);
+  padding: 5px 100px;
+  margin: 0;
+  text-align: center;
+  margin-top: 200px;
+}
